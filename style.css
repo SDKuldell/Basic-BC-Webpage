@@ -1,0 +1,54 @@
+/* INTERACTIVE (3) - CUSTOM STYLES */
+body {
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-family: 'Arial', sans-serif;
+}
+
+h1 {
+	color: #6C6C75;
+	font-size: 48px;
+	font-weight: 100;
+	margin-bottom: 30px;
+}
+
+a.external-link {
+	color: #8A5038;
+	text-decoration: none;
+}
+
+.external-link:hover {
+	text-decoration: underline;
+}
+
+#content:empty {
+	display: none;
+}
+
+
+#generate {
+	margin-bottom: 20px;
+}
+.generated-content{
+	margin: 20px 0;
+	padding: 20px;
+	background-color: #f7f7f7;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+
+.img-thumbnail {
+	margin-bottom: 20px;
+	width: 100%;
+	max-width: 700px;
+	border-radius: 4px;
+}
+
+.button {
+	background-color: #8a100b;
+	border: 1px solid #8a100b;
+}
+.button:hover, .button:focus {
+	background-color: #726158;
+	border: 1px solid #726158;
+}
